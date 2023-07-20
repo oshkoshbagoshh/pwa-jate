@@ -20,8 +20,9 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
+        title: 'Just Another Text Editor',
       }),
-      new injectManifest({
+      new InjectManifest({
         swSrc: './src-sw.js',
         swDest: 'src-sw.js',
       }),
@@ -31,10 +32,10 @@ module.exports = () => {
         description: 'A simple text editor for your browser that you can use offline.',
         background_color: '#CDE9FF',
         theme_color: '#CDE9FF',
-        start_url: '/',
-        publicPath: '/',
+        start_url: './',
+        publicPath: './',
         inject: true,
-        fingerprints: true,
+        fingerprints: false,
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
