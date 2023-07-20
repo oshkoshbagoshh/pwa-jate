@@ -2,7 +2,7 @@
 
 ## Heroku Deployment 
 - [Heroku Deployment](https://aj-jate-f41cfdd72912.herokuapp.com/)
-- TODO: Add Heroku Deployment Link
+
 ## Description
 
 - This project is a Progressive Web Application that functions as a text editor that allows users to install the application on their device and use it offline. The application also allows users to save their work to their local device.
