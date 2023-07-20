@@ -1,7 +1,7 @@
 # Progressive Web App - Just Another Text Editor
 
 ## Heroku Deployment 
-- [Heroku Deployment](https://just-another-text-editor.herokuapp.com/)
+- [Heroku Deployment](https://aj-jate-f41cfdd72912.herokuapp.com/)
 - TODO: Add Heroku Deployment Link
 ## Description
 
@@ -23,7 +23,7 @@ npm install
 npm run start
 ```
 - The user can also view the deployed application on Heroku using the following link:
-- TODO: Add Heroku Deployment Link
+- [Heroku Deployment](https://aj-jate-f41cfdd72912.herokuapp.com/)
   
 ## Usage
 <!-- Provide instructions and examples for use. Include screenshots as needed.
