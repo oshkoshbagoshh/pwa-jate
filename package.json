@@ -1,18 +1,18 @@
 {
   "name": "JATE",
   "version": "1.0.0",
-  "description": "Just Another Text Editor",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "start:dev": "",
-    "start": "",
-    "server": "",
-    "build": "",
-    "install": "",
-    "client": ""
+    "start:dev": "concurrently \"cd client && npm run build\" \"cd server && npm run server\" ",
+    "start": "npm run build && cd server && node server.js",
+    "server": "cd server node server.js --ignore client",
+    "build": "cd client && npm run build",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "client": "cd client && npm start"
   },
   "keywords": [],
-  "author": "AJ Javadi",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
